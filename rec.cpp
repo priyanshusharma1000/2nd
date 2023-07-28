@@ -1,16 +1,16 @@
+//q1 print name N times
 #include<iostream>
 using namespace std;
-int print(int n){
-    if(n==0)
-    return 0;
-    if(n==1)
-    return 1;
-int ans = print(n-1)+print(n-1);
-
-
-
+void func(int cnt,int n){
+if(cnt<=n)
+return;
+cout<<"priyanshu"<<endl;
+cnt++;
+func(cnt,n);
 }
 int main(){
-  
-    cout<<  print(10);
+int n;
+cin>>n;
+int cnt = 1;
+func(cnt,n);
 }

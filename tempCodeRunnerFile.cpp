@@ -1,1 +1,1 @@
-insertattail(tail,19);
+    return 0;
